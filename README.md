@@ -1,4 +1,4 @@
-# EduVeda 🧑‍🏫
+# EduVeda 
 Welcome to **EduVeda** 📚
 
 ## Project Overview  
@@ -47,7 +47,7 @@ Welcome to **EduVeda** 📚
 ## Setup and Installation  
 1. **Clone this repository:**  
    ```bash
-   git clone https://github.com/ayuxy027/EduVeda.git
+   git clone https://github.com/AdeshDiwate/EduVeda.git
    ```
 2. **Install frontend dependencies:**  
    ```bash
@@ -91,12 +91,6 @@ Let's keep the spirit of open source alive!
 - Please follow the project's **license terms** before redistributing or modifying.  
 - Creating something from scratch takes a lot of hard work, and I hope you respect that. 😄  
 - If you have any questions or need permission for something specific, feel free to reach out.  
-
-## Contact  
-If you have any inquiries or suggestions, please reach out:  
-- **Email:** [ayush421301@gmail.com](mailto:ayush421301@gmail.com)  
-- **X (Twitter):** [ayuxy027](https://x.com/ayuxy027)  
-- **GitHub:** [ayuxy027](https://github.com/ayuxy027)  
 
 ---
 
