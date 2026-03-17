@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  letter-spacing: -0.03em;
+
+  /* Custom color variables - sky blue theme */
+  --color-primary: #0ea5e9; /* sky-500 */
+  --color-primary-light: #38bdf8; /* sky-400 */
+  --color-primary-dark: #0284c7; /* sky-600 */
+  --color-secondary: #e0f2fe; /* sky-100 */
+  --color-tertiary: #f0f9ff; /* sky-50 */
+  --color-text-dark: #1f2937; /* gray-800 */
+  --color-text-light: #f3f4f6; /* gray-100 */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-background: linear-gradient(
+    to bottom,
+    var(--color-tertiary),
+    var(--color-white),
+    var(--color-tertiary)
+  );
+}
+
+html,
+body {
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.2s ease-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+/* CRITICAL: Global KaTeX Fix - Remove default 1em margins permanently */
+.katex-display {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+/* Remove wrapper spacing */
+.katex-display > .katex {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Inline math */
+.katex {
+  margin: 0 !important;
+  padding: 0 !important;
+}
