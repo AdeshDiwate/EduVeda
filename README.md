@@ -1,5 +1,5 @@
 # EduVeda 
-Welcome to **EduVeda** 📚
+Welcome to **EduVeda** 
 
 ## Project Overview  
 **EduVeda** is a lightweight, multilingual AI-powered educational platform that generates curriculum-aligned content in 22+ Indian languages. Designed for **100% offline operation** with **zero reliance on cloud services**, EduVeda runs efficiently on low-resource devices (4-8GB RAM) without requiring internet connectivity.
@@ -83,21 +83,8 @@ Welcome to **EduVeda** 📚
 
 **Note:** EduVeda is **100% offline** and requires **no external API keys** or cloud services. All AI processing happens locally using Ollama and local models.
 
-## Contributing  
-**Contributions are welcomed!** 😁  
-Let's keep the spirit of open source alive!  
 
-### **Important**  
-- Please follow the project's **license terms** before redistributing or modifying.  
-- Creating something from scratch takes a lot of hard work, and I hope you respect that. 😄  
-- If you have any questions or need permission for something specific, feel free to reach out.  
-
----
-
-
-<!-- ********************************************************
------------Adesh Commands to run this Project-----------
-******************************************************** -->
+----------- Commands -----------
 
 Powershell 1 -
 
